@@ -1,0 +1,23 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.progress-container {
+    width: 100%;
+    height: 4px;
+    background-color: #f3f3f3;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.3s;
+}
+
+.content {
+    height: 2000px; /* Apenas para testar a rolagem */
+}
+
